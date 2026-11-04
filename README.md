@@ -26,7 +26,7 @@ Snowflake account execution and licensed live subscriptions are not verified. Th
 Requirements: Docker with Compose and `make`. The first build downloads Java, Spark, the matching Kafka connector, and frontend packages, so allow several minutes. No market-data key or cloud account is required.
 
 ```sh
-git clone https://github.com/anushaxrama/marketpulse.git
+git clone https://github.com/anusharama100/marketpulse.git
 cd marketpulse
 make demo
 ```

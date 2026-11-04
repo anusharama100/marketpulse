@@ -4,6 +4,10 @@ MarketPulse processes historical market bars through Kafka and Spark Structured 
 
 The default source is one day of official Binance Vision spot archives for BTCUSDT, ETHUSDT, and SOLUSDT. These are one-minute OHLCV bars, not ticks or quote snapshots. Every view labels the data as historical replay. Prices are quoted in USDT, not converted to USD.
 
+## Review guide
+
+Start with the [case study](portfolio/case-study.md), inspect the [dashboard](docs/screenshots/overview.png), and read [verification](docs/verification.md) for the recorded checks. The demo below runs historical market data through the local stack; live subscriptions and Snowflake account execution are outside the verified scope.
+
 ## What works
 
 - A Python provider adapter downloads and verifies source ZIP files against their published SHA-256 checksums.

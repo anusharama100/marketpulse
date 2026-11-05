@@ -101,3 +101,7 @@ A Snowflake exporter is implemented but account-level execution is unverified. I
 Use `make logs` to inspect services and `make stop` to stop them while retaining volumes. `docker compose down -v` deliberately discards this project's stored data and checkpoints.
 
 Original project code uses the [MIT license](LICENSE). Market data retains its own [license and attribution requirements](docs/data-license.md).
+
+## Latest local check
+
+See [local verification](docs/LOCAL_VERIFICATION.md) for the November 5, 2026 setup, runtime checks, and remaining test boundaries.
